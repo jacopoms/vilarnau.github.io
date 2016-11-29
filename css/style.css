@@ -32,20 +32,31 @@ a:focus {
   margin-bottom: 80px;
 }
 
-/*.row {
-  padding: 0 30px;
-}*/
-
-
-.row {
-  padding: 0 70px;
+.wrapper {
+  background: #a45c00;
 }
 
+.text-content * {
+  letter-spacing: 0.2em;
+}
+
+.row {
+  padding: 15px 30px;
+}
 
 .logo-wrapper,
 .text-wrapper {
-  background: #b2762b;
+  background: #a45c00; /* ###9F701E; */
   padding: 0;
+}
+
+
+.logo-wrapper {
+  padding: 15px 15px 0 15px;
+}
+
+.text-wrapper {
+  padding: 0 15px 15px 15px;
 }
 
 .logo {
@@ -94,6 +105,18 @@ a:focus {
 .margin-bottom {
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .row {
+    padding: 15px 30px;
+  }
+
+  .wrapper {
+    background: #a45c00;
+  }
+}
+
+
 /*.container:before {
   content: ' ';
   display: block;

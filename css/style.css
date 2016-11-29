@@ -25,7 +25,7 @@ a:focus {
   text-decoration: none;
 }
 
-.container {
+.container-fluid {
   font-family: 'Core+Deco';
   background: transparent;
   margin-top: 80px;
@@ -104,6 +104,24 @@ a:focus {
 
 .margin-bottom {
   margin-bottom: 20px;
+}
+
+.table-responsive {
+  border: none;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.42857143;
+  margin-bottom: 12px;
+}
+
+.table-responsive td:first-child {
+  padding-left: 45px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.table-responsive td:last-child {
+  padding-left: 20px;
 }
 
 @media (max-width: 768px) {

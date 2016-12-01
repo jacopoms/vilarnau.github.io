@@ -5,12 +5,17 @@
   font-style: normal;
 }
 
+body, html, .container-fluid {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+
 body {
   font-family: "RooneySans-Regular", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
   font-size: 18px;
   color: #000000;
   background: url("../images/pattern-background.png");
-  /*background-size: 10%;*/
 }
 
 a {
@@ -25,22 +30,30 @@ a:focus {
   text-decoration: none;
 }
 
+body {
+  display: table;
+  width: 100%;
+}
+
+.container-fluid {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .container-fluid {
   font-family: 'Core+Deco';
   background: transparent;
   margin-top: 80px;
   margin-bottom: 80px;
-}
 
-.wrapper {
-  background: #a45c00;
 }
 
 .text-content * {
   letter-spacing: 0.2em;
 }
 
-.row {
+.wrapper {
   padding: 15px 30px;
 }
 
@@ -105,17 +118,17 @@ a:focus {
   margin-right: 8px;
 }
 
+.no-right-padding {
+  padding-right: 0;
+}
 
 .margin-bottom {
   margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-  .row {
+  .wrapper {
     padding: 15px 30px;
   }
 
-  .wrapper {
-    background: #a45c00;
-  }
 }

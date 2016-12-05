@@ -50,7 +50,7 @@ body {
 }
 
 .text-content * {
-  letter-spacing: 0.2em;
+  /*letter-spacing: 0.2em;*/
 }
 
 .wrapper {
